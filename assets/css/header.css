@@ -1,16 +1,17 @@
-header .logo img{
+header .logo img {
     width: 12rem;
 }
 
-header{
-    position: sticky; /* Position sticky: serve para fixar algo no topo (uso OBRIGATÓRIO no iphone para n bugar o menu)*/
+header {
+    position: sticky;
+    /* Position sticky: serve para fixar algo no topo (uso OBRIGATÓRIO no iphone para n bugar o menu)*/
     inset: 0 0 auto 0;
     z-index: 10;
     box-shadow: 0 0 5px #ccc;
     background-color: var(--background);
 }
 
-header .banner{
+header .banner {
     display: block;
     background-color: var(--thirdground);
     text-align: center;
@@ -19,38 +20,38 @@ header .banner{
     text-decoration: none;
 }
 
-header .banner:hover{
+header .banner:hover {
     opacity: 0.8;
 }
 
-header .area{
+header .area {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
 }
 
-header .menu-opener{
+header .menu-opener {
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
 }
 
-header .hamburger-icon{
+header .hamburger-icon {
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
 
-header .hamburger-icon span{
+header .hamburger-icon span {
     display: block;
     width: 100%;
     height: 0.2rem;
     background-color: var(--secondary);
 }
 
-header .close-icon{
+header .close-icon {
     display: none;
     height: 100%;
     flex-direction: column;
@@ -58,7 +59,7 @@ header .close-icon{
     position: relative;
 }
 
-header .close-icon span{
+header .close-icon span {
     position: absolute;
     display: block;
     width: 100%;
@@ -66,15 +67,15 @@ header .close-icon span{
     background-color: var(--secondary);
 }
 
-header .close-icon:first-child{
+header .close-icon:first-child {
     transform: rotate(45deg);
 }
 
-header .close-icon:last-child{
+header .close-icon:last-child {
     transform: rotate(-45deg);
 }
 
-header nav{
+header nav {
     background-color: var(--background);
     color: var(--secondary);
     overflow-y: hidden;
@@ -82,50 +83,50 @@ header nav{
     transition: all ease .5s;
 }
 
-header nav.opened{
+header nav.opened {
     max-height: 100vh;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     flex-direction: column;
     padding-bottom: 2rem;
 }
 
-header nav li{
+header nav li {
     padding: 1rem 2rem;
 }
 
-header nav a{
+header nav a {
     color: var(--secondary);
     text-decoration: none;
     font-size: 2rem;
 }
 
-header nav a:hover{
+header nav a:hover {
     opacity: .8;
 }
 
-header nav a.bold{
+header nav a.bold {
     font-weight: bold;
 }
 
-@media(width>900px){
-    header .menu-opener{
+@media(width>900px) {
+    header .menu-opener {
         display: none;
     }
 
-    header .container{
+    header .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    header nav{
+    header nav {
         max-height: 100vh;
     }
 
-    header nav ul{
+    header nav ul {
         flex-direction: row;
         padding-bottom: 0;
     }
