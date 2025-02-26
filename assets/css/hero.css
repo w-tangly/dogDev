@@ -32,7 +32,7 @@
 @media(width>900px){
     .hero{
         background-image: url(../images/hero.png);
-        background-size: auto 40rem;
+        background-size: auto;
     }
 
     .hero .box{
