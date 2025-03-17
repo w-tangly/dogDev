@@ -18,23 +18,23 @@ menuOpener.addEventListener("click", () => {
 let testemonials = [
   {
     quote:
-      '"Mais do que nunca, os animais ' +
-      'são tratados como membros da familia"',
+      '"Mais do que nunca, sinto uma ' +
+      'melhora significativa em minha pele!"',
     origin: "cbs.svg",
   },
   {
     quote:
-      '"DogDev é um serviço de entrega direto ao ' +
-      "consumidor, preparado na hora com ingredientes 100% " +
-      'reais. Ingredientes que humanos reconheceriam"',
+      '"Stacy traz um serviço de entrega direto ao ' +
+      "consumidor, com seu atendimento sendo 100% humanizado." +
+      ' Trazendo a explicação do por que do uso de cada produto"',
     origin: "forbes.svg",
   },
   {
-    quote: '"DogDev usa ingredientes simples e limpos em ' + 'seus produtos."',
+    quote: '"Stacy usa ingredientes simples e limpos em ' + 'seus produtos."',
     origin: "fox.svg",
   },
   {
-    quote: '"Vejo você DogDev como um verdadeiro herói"',
+    quote: '"Vejo você Stacy como uma verdadeiro heroína"',
     origin: "sharktank.svg",
   },
 ];
