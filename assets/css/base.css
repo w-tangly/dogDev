@@ -2,12 +2,12 @@
 
 :root {
   --background: #fff;
-  --foreground: #ebf4ff;
-  --thirdground: #ffc600;
-  --primary: #131923;
-  --secondary: #0055b8;
+  --foreground: #EADFDB;
+  --thirdground: #B34E61;
+  --primary: #723245;
+  --secondary: #CC8290;
   --secondary-foreground: #fff;
-  --hero-background: #f3f3f3;
+  --hero-background: ##D8D4CC;
 }
 
 * {
